@@ -1,7 +1,6 @@
 ----------------------------------------------------------------------------------------
 BACKGROUND
 ----------------------------------------------------------------------------------------
-
 Historical sales data for 45 stores of a company are provided located in different regions; 
 each store contains a number of departments. The company also runs several promotional
 markdown events throughout the year. These markdowns precede prominent holidays, the
@@ -26,13 +25,14 @@ Store: the store number
 
 Date : Date of the week
 
-Temperature:  average temperature in the region  Fuel_Price:  cost of fuel in the region
-  MarkDown1-5:  anonymized data related to promotional markdowns. MarkDown
+Temperature:  average temperature in the region.<br>  
+Fuel_Price:  cost of fuel in the region. <br>
+MarkDown1-5:  anonymized data related to promotional markdowns. MarkDown
 data is only available after Nov 2011, and is not available for all stores all the
-time. Any missing value is marked with an NA
-  CPI: the consumer price index
-  Unemployment: the unemployment rate
-  IsHoliday: whether the week is a special holiday week
+time. Any missing value is marked with an NA.<br>
+CPI: the consumer price index.<br>
+Unemployment: the unemployment rate.<br>
+IsHoliday: whether the week is a special holiday week.<br>
 
 -------------------Sales CSV----------------------------
 
