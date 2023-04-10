@@ -1,17 +1,19 @@
 ----------------------------------------------------------------------------------------
-Background
+BACKGROUND
 ----------------------------------------------------------------------------------------
 
-Historical sales data for 45 stores of a company are provided located in different regions
-- each store contains a number of departments. The company also runs several promotional
+Historical sales data for 45 stores of a company are provided located in different regions; 
+each store contains a number of departments. The company also runs several promotional
 markdown events throughout the year. These markdowns precede prominent holidays, the
 four largest of which are the Super Bowl, Labor Day, Thanksgiving, and Christmas. The
 weeks including these holidays are weighted five times higher in the evaluation than
 non-holiday weeks.
 ----------------------------------------------------------------------------------------
-DATA DESCRIPTIUON : Corresponding file in the repository: data
+DATA DESCRIPTION : 
 ----------------------------------------------------------------------------------------
 Data-Set:
+
+Corresponding data files are located in the folder named data
 
 - Three datasets:
 - Features, sales, and stores dataset
@@ -21,33 +23,36 @@ Meta-data:
 ----------------Feature CSV----------------------------
 
 Store: the store number
+
 Date : Date of the week
-Temperature:  average temperature in the region
-Fuel_Price:  cost of fuel in the region
-MarkDown1-5:  anonymized data related to promotional markdowns. MarkDown
+
+Temperature:  average temperature in the region  Fuel_Price:  cost of fuel in the region
+  MarkDown1-5:  anonymized data related to promotional markdowns. MarkDown
 data is only available after Nov 2011, and is not available for all stores all the
 time. Any missing value is marked with an NA
-CPI: the consumer price index
-Unemployment: the unemployment rate
-IsHoliday: whether the week is a special holiday week
+  CPI: the consumer price index
+  Unemployment: the unemployment rate
+  IsHoliday: whether the week is a special holiday week
 
 -------------------Sales CSV----------------------------
+
 Store: the store number
-Dept: the department number
-Date: Date of the week
-Weekly_Sales: sales for the given department in the given store
-IsHoliday: whether the week is a special holiday week
+  Dept: the department number
+  Date: Date of the week
+  Weekly_Sales: sales for the given department in the given store
+  IsHoliday: whether the week is a special holiday week
 
 -------------------Stores CSV-----------------------------
+
 Store: the store number
-Type: the store type
-Size: the size of the
+  Type: the store type
+  Size: the size of the
 
 --------------------------------------------------------------------------------------
 TASKS
---------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
 
-----------------------------Part 1: Working with RDDs (30%)---------------------------
+----------------------------Part 1: Working with RDDs (30%)-----------------------------
 
 In this section, you will need to create RDDs from the given datasets, perform partitioning in
 these RDDs and use various RDD operations to answer the queries for retail analysis.
@@ -82,6 +87,7 @@ For this part, write relevant RDD operations to answer the following questions.
 store ID, date, highest temperature and type in the result.
 
 --------------------------------Part2. Working with DataFrames (50%)--------------------------
+
 In this section, you will need to load the given datasets into PySpark DataFrames
 and use DataFrame functions to answer the queries.
 
@@ -109,6 +115,7 @@ rate, use the different colors for the holiday week point. After that, discuss y
 findings based on the scatter plot.
 
 --------------------------------Part3: RDDs vs DataFrame vs Spark SQL (20%)-------------------
+
 Implement the following queries using RDDs, DataFrames and SparkSQL separately. Log
 the time taken for each query in each approach using the “%%time” built-in magic
 command in Jupyter Notebook and discuss the performance difference between these 3
