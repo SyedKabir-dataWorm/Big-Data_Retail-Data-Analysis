@@ -25,28 +25,39 @@ Store: the store number
 
 Date : Date of the week
 
-Temperature:  average temperature in the region.<br>  
-Fuel_Price:  cost of fuel in the region. <br>
+Temperature:  average temperature in the region.
+
+Fuel_Price:  cost of fuel in the region.
+
 MarkDown1-5:  anonymized data related to promotional markdowns. MarkDown
-data is only available after Nov 2011, and is not available for all stores all the
-time. Any missing value is marked with an NA.<br>
-CPI: the consumer price index.<br>
-Unemployment: the unemployment rate.<br>
-IsHoliday: whether the week is a special holiday week.<br>
+data is only available<br> after Nov 2011, and is not available for all stores all the
+time. Any missing value is marked with an NA.
+
+CPI: the consumer price index.
+
+Unemployment: the unemployment rate.
+
+IsHoliday: whether the week is a special holiday week.
 
 -------------------Sales CSV----------------------------
 
 Store: the store number
-  Dept: the department number
-  Date: Date of the week
-  Weekly_Sales: sales for the given department in the given store
-  IsHoliday: whether the week is a special holiday week
+
+Dept: the department number
+
+Date: Date of the week
+
+Weekly_Sales: sales for the given department in the given store
+
+IsHoliday: whether the week is a special holiday week
 
 -------------------Stores CSV-----------------------------
 
 Store: the store number
-  Type: the store type
-  Size: the size of the
+
+Type: the store type
+
+Size: the size of the
 
 --------------------------------------------------------------------------------------
 TASKS
@@ -80,8 +91,8 @@ columns as the value. Print out the first 5 records of the key-value RDD.
 type should be in the same partition). Print out the total partition's number and the number of
 records in each partition.
 
-1.3 Query/Analysis (10%)
-For this part, write relevant RDD operations to answer the following questions.
+1.3 Query/Analysis (10%)<br>
+For this part, write relevant RDD operations to answer the following questions.<br>
 1. Calculate the average weekly sales for each year.
 2. Find the highest temperature record in 2011 in the 'type B' store. You should display the
 store ID, date, highest temperature and type in the result.
