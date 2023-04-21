@@ -5,10 +5,11 @@ Historical sales data for 45 stores of a company are provided located in differe
 each store contains a number of departments. The company also runs several promotional
 markdown events throughout the year. These markdowns precede prominent holidays, the
 four largest of which are the Super Bowl, Labor Day, Thanksgiving, and Christmas. The
-weeks including these holidays are weighted five times higher in the evaluation than
+weeks including these holidays are weighted five times higher in the evaluation than 
 non-holiday weeks.
+
 ----------------------------------------------------------------------------------------
-**DATA DESCRIPTION : **
+**DATA DESCRIPTION :**
 ----------------------------------------------------------------------------------------
 Data-Set:
 
