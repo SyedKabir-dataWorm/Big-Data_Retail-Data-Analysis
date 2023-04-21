@@ -1,6 +1,7 @@
 ----------------------------------------------------------------------------------------
 BACKGROUND
 ----------------------------------------------------------------------------------------
+
 Historical sales data for 45 stores of a company are provided located in different regions; 
 each store contains a number of departments. The company also runs several promotional
 markdown events throughout the year. These markdowns precede prominent holidays, the
