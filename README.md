@@ -1,7 +1,6 @@
 ----------------------------------------------------------------------------------------
-BACKGROUND
+**BACKGROUND**
 ----------------------------------------------------------------------------------------
-
 Historical sales data for 45 stores of a company are provided located in different regions; 
 each store contains a number of departments. The company also runs several promotional
 markdown events throughout the year. These markdowns precede prominent holidays, the
@@ -9,7 +8,7 @@ four largest of which are the Super Bowl, Labor Day, Thanksgiving, and Christmas
 weeks including these holidays are weighted five times higher in the evaluation than
 non-holiday weeks.
 ----------------------------------------------------------------------------------------
-DATA DESCRIPTION : 
+**DATA DESCRIPTION : **
 ----------------------------------------------------------------------------------------
 Data-Set:
 
@@ -61,7 +60,7 @@ Type: the store type
 Size: the size of the
 
 --------------------------------------------------------------------------------------
-TASKS
+**TASKS**
 ----------------------------------------------------------------------------------------
 
 ----------------------------Part 1: Working with RDDs (30%)-----------------------------
